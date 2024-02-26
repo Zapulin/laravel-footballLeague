@@ -1,0 +1,182 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:chocolate;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+th {
+    background-color: chocolate;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+td {
+    background-color:rgb(253, 248, 242);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form {
+    width: 200px;
+    background-color:rgb(253, 248, 242);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.field {
+    margin-left: 20px;
+}
+
+label {
+    color:chocolate;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+input {
+    display: flex;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-navbar {
+    background-color:chocolate;
+    color:#ffffff;
+    margin: 10px;
+}
+
+.btn-navbar:hover {
+    background-color:coral;
+}
+
+.btn-view {
+    background-color:cadetblue;
+    color:#ffffff;
+}
+
+.btn-view:hover {
+    background-color:rgb(59, 97, 99);
+    color:#ffffff;
+}
+
+.btn-edit {
+    background-color:cadetblue;
+    color:#ffffff;
+}
+
+.btn-edit:hover {
+    background-color:rgb(59, 97, 99);
+    color:#ffffff;
+}
+
+.btn-delete {
+    background-color:crimson;
+    color:#ffffff;
+    margin-left: 10px;
+}
+
+.btn-delete:hover {
+    background-color:brown;
+    color:#ffffff;
+}
+
+.create {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-create {
+    background-color:forestgreen;
+    color:#ffffff;
+}
+
+.btn-create:hover {
+    background-color:darkgreen;
+    color:#ffffff;
+}
+
+.btn-save {
+    width: auto;
+    background-color:forestgreen;
+    color:#ffffff;
+    border: none;
+    margin-left: 65px;
+}
+
+.btn-save:hover {
+    background-color:darkgreen;
+    color:#ffffff;
+}
+
+.message {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color:#ffffff;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.succes {
+    background-color: green;
+}
+
+.error {
+    background-color:crimson;
+
+}
